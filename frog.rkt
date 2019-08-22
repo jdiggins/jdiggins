@@ -6,7 +6,7 @@
 (define/contract (init)
   (-> any)
   (current-scheme/host "http://www.jdiggins.com")
-  (current-title "My Blog")
+  (current-title "John Diggins")
   (current-author "John Diggins"))
 
 ;; Called once per post and non-post page, on the contents.
