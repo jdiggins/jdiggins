@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">My Blog: Posts tagged 'Programming'</title>
+ <title type="text">John Diggins: Posts tagged 'Programming'</title>
  <link rel="self" href="http://www.jdiggins.com/feeds/Programming.atom.xml" />
  <link href="http://www.jdiggins.com/tags/Programming.html" />
  <id>urn:http-www-jdiggins-com:-tags-Programming-html</id>

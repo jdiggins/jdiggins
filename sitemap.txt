@@ -1,4 +1,2 @@
 http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html
-http://www.jdiggins.com/2012/01/a-2012-blog-post.html
-http://www.jdiggins.com/2019/08/an-intro-to-p4-tuning.html
 http://www.jdiggins.com/About.html

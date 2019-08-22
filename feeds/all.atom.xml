@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">My Blog: My Blog</title>
+ <title type="text">John Diggins: John Diggins</title>
  <link rel="self" href="http://www.jdiggins.com/feeds/all.atom.xml" />
  <link href="http://www.jdiggins.com/index.html" />
  <id>urn:http-www-jdiggins-com:-index-html</id>
@@ -18,28 +18,4 @@
 
 &lt;p&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; is a static blog generator implemented in Racket. If you haven&amp;rsquo;t heard of Racket, it is a programming language similar to Scheme that is strong at programming language design. Racket is fun to work with, and surprising fast to develop with once you get the hang of it. You don&amp;rsquo;t need to know much Racket (if any) to use Frog, but you can use Racket to help modify the website if desired.&lt;/p&gt;
 
-&lt;p&gt;Blog posts are written purely in markdown, which I love. That gives me a lot of control with how the blog posts look, without putting in a lot of effort. It also supports Python3&amp;rsquo;s Pygments libr ary for syntax highlighting in code blocks, while not required, is a great addition for someone l ike me.&lt;/p&gt;&lt;a href="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
- <entry>
-  <title type="text">An Intro to P4 Tuning</title>
-  <link rel="alternate" href="http://www.jdiggins.com/2019/08/an-intro-to-p4-tuning.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-www-jdiggins-com:-2019-08-an-intro-to-p4-tuning-html</id>
-  <published>2019-08-22T19:15:30Z</published>
-  <updated>2019-08-22T19:15:30Z</updated>
-  <author>
-   <name>John Diggins</name></author>
-  <content type="html">
-&lt;p&gt;Here will be a post about getting started in P4 tuning!&lt;/p&gt;&lt;a href="http://www.jdiggins.com/2019/08/an-intro-to-p4-tuning.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
- <entry>
-  <title type="text">A 2012 blog post</title>
-  <link rel="alternate" href="http://www.jdiggins.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:http-www-jdiggins-com:-2012-01-a-2012-blog-post-html</id>
-  <published>2012-01-01T05:00:00Z</published>
-  <updated>2012-01-01T05:00:00Z</updated>
-  <author>
-   <name>John Diggins</name></author>
-  <content type="html">
-&lt;p&gt;Here is an example blog post.&lt;/p&gt;
-
-&lt;p&gt;Everything after this paragraph &amp;ldquo;after the break&amp;rdquo;. On index pages and Atom feeds, it will become &amp;ldquo;Continue reading&amp;hellip;&amp;rdquo;, if you configure them to include only the summary &amp;ldquo;blurb&amp;rdquo; before the break.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;some code&lt;/code&gt;&lt;/pre&gt;&lt;a href="http://www.jdiggins.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;p&gt;Blog posts are written purely in markdown, which I love. That gives me a lot of control with how the blog posts look, without putting in a lot of effort. It also supports Python3&amp;rsquo;s Pygments libr ary for syntax highlighting in code blocks, while not required, is a great addition for someone l ike me.&lt;/p&gt;&lt;a href="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
