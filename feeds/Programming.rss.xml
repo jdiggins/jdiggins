@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>My Blog: Posts tagged 'Programming'</title>
+  <description>My Blog: Posts tagged 'Programming'</description>
+  <link>http://www.jdiggins.com/tags/Programming.html</link>
+  <lastBuildDate>Thu, 22 Aug 2019 19:58:41 UT</lastBuildDate>
+  <pubDate>Thu, 22 Aug 2019 19:58:41 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Creating my blog using Frog, a Racket library</title>
+   <link>http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html?utm_source=Programming&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:http-www-jdiggins-com:-2019-08-creating-my-blog-using-frog-a-racket-library-html</guid>
+   <pubDate>Thu, 22 Aug 2019 19:58:41 UT</pubDate>
+   <author>John Diggins</author>
+   <description>
+&lt;p&gt;Being my first blog post with Frog, I thought it would be a good idea to talk about what Frog is and why I chose it to create this blog.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt; is a static blog generator implemented in Racket. If you haven&amp;rsquo;t heard of Racket, it is a programming language similar to Scheme that is strong at programming language design. Racket is fun to work with, and surprising fast to develop with once you get the hang of it. You don&amp;rsquo;t need to know much Racket (if any) to use Frog, but you can use Racket to help modify the website if desired.&lt;/p&gt;
+
+&lt;p&gt;Blog posts are written purely in markdown, which I love. That gives me a lot of control with how the blog posts look, without putting in a lot of effort. It also supports Python3&amp;rsquo;s Pygments libr ary for syntax highlighting in code blocks, while not required, is a great addition for someone l ike me.&lt;/p&gt;&lt;a href="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html?utm_source=Programming&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

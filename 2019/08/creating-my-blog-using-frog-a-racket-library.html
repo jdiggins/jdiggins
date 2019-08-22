@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Creating my blog using Frog, a Racket library</title>
+    <meta name="description" content="Being my first blog post with Frog, I thought it would be a good idea to talk about what Frog is and why I chose it to create this blog.  Frog is a static blog generator implemented in Racket. If you haven't heard of Racket, it is a programming language s...">
+    <meta name="author"      content="John Diggins">
+    <meta name="keywords"    content="Racket, Programming, Frog">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html">
+    <link rel="next" href="/2019/08/an-intro-to-p4-tuning.html">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link rel="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-xxxxx', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+
+      <a href="/index.html" class="navbar-brand">John Diggins</a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbar_collapse" aria-controls="navbar_collapse"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar_collapse">
+          <ul class="navbar-nav mr-auto">
+
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b>
+              </a>
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tags/bar.html">bar</a><a class="dropdown-item" href="/tags/baz.html">baz</a><a class="dropdown-item" href="/tags/foo.html">foo</a><a class="dropdown-item" href="/tags/Frog.html">Frog</a><a class="dropdown-item" href="/tags/Guitar.html">Guitar</a><a class="dropdown-item" href="/tags/Programming.html">Programming</a><a class="dropdown-item" href="/tags/Racket.html">Racket</a><a class="dropdown-item" href="/tags/tag-with-spaces.html">tag with spaces</a>
+              </div>
+            </li>
+
+            <li>
+              <a class="nav-link" href="/About.html">About</a>
+            </li> 
+
+          </ul>
+      </div>
+
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+          <article>
+  <header>
+    <h1>Creating my blog using Frog, a Racket library</h1>
+    <p class='date-and-tags'>
+<time datetime="2019-08-22" pubdate="true">2019-08-22</time> :: <span class="tags"><a href="/tags/Racket.html">Racket</a>, <a href="/tags/Programming.html">Programming</a>, <a href="/tags/Frog.html">Frog</a></span></p>
+    <p class='authors'>By: <span class="authors">John Diggins</span></p>
+  </header>
+
+<p>Being my first blog post with Frog, I thought it would be a good idea to talk about what Frog is and why I chose it to create this blog.</p>
+
+<p><a href="https://github.com/greghendershott/frog">Frog</a> is a static blog generator implemented in Racket. If you haven&rsquo;t heard of Racket, it is a programming language similar to Scheme that is strong at programming language design. Racket is fun to work with, and surprising fast to develop with once you get the hang of it. You don&rsquo;t need to know much Racket (if any) to use Frog, but you can use Racket to help modify the website if desired.</p>
+
+<p>Blog posts are written purely in markdown, which I love. That gives me a lot of control with how the blog posts look, without putting in a lot of effort. It also supports Python3&rsquo;s Pygments libr ary for syntax highlighting in code blocks, while not required, is a great addition for someone l ike me.</p>
+<!-- more-->
+
+<h2 id="why-i-chose-frog">Why I chose Frog</h2>
+
+<p>Even though the author, Greg Hendershott, recently posted about how frog isn&rsquo;t lightweight enough for his own blog anymore, it is exactly the amount of weight that I need. It takes markdown files, turns them into blog posts, and renders a nice static webpage that I can easily push to github. It is easy to modify the site as needed, but comes out of the box doing its job extremely well.</p>
+
+<p>I have tried creating blogs in the past, the most recent being one I wrote using Django, but they seemed to have too much overhead and didn&rsquo;t allow easy control over formatting my posts.</p>
+
+<h2 id="why-not-use-wordpress-or-blogger">Why not use Wordpress or Blogger?</h2>
+
+<p>It is easier for me to open up my terminal, type <code>raco frog -n blog-title</code>, and write some markdown, than to have to log into a Blogger account or navigate to some site to create a post. I think the real reason is the hacker in me would rather just do it myself.</p>
+
+<h2 id="what-i-plan-for-the-future-with-frog">What I plan for the future with Frog</h2>
+
+<p>I hope to write occational posts with updates on what I am working on, how-to&rsquo;s for anything programming related that I don&rsquo;t want to forget, as well as posts related to guitar and P4 tuning. I plan on adding some sort of tool to Frog that allows me to easily write and display guitar tab and/or music notation directly in my blog posts.</p>
+  <footer>
+    <script type="text/javascript">
+      !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+              js=d.createElement(s);
+              js.id=id;
+              js.src="//platform.twitter.com/widgets.js";
+              fjs.parentNode.insertBefore(js,fjs);
+          }
+      }(document,"script","twitter-wjs");
+    </script>
+    <a href="https://twitter.com/share"
+       class="twitter-share-button"
+       data-url="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html"
+       data-dnt="true">
+      "Tweet"</a>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <g:plusone size="medium" href="http://www.jdiggins.com/2019/08/creating-my-blog-using-frog-a-racket-library.html"></g:plusone>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="/2019/08/an-intro-to-p4-tuning.html"
+               aria-label="Previous">
+              <span aria-hidden="true">&larr; An Intro to P4 Tuning</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</article>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p><a href="https://twitter.com/racketlang"
+              class="twitter-follow-button"
+              data-show-count="false"
+              data-lang="en">
+             "Follow RacketLang"
+           </a>
+           <script type="text/javascript">
+             !function(d,s,id){
+                 var js,fjs=d.getElementsByTagName(s)[0];
+                 if(!d.getElementById(id)){
+                     js=d.createElement(s);
+                     js.id=id;
+                     js.src="//platform.twitter.com/widgets.js";
+                     fjs.parentNode.insertBefore(js,fjs);
+                 }
+             }(document,"script","twitter-wjs");
+           </script></p>
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        <p>Using <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
+        <p><em>© 2019 John Diggins</em>.</p>
+        <p>Feeds available via <a href="/feeds/all.atom.xml">Atom</a> and <a href="/feeds/all.rss.xml">RSS</a>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
